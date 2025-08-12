@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "projectfotoupload",
+  "private_key_id": "be4d1d19dd1a7152e8dbd1795096a5c8a52a29f7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQChd6E1tKa/gQ7I\nv1cvg2OI18qCaHIPKiZc5+36oQLrVSDdg+D1QafnDeVeyffOOdjsxuyHpqZilzFB\nQ4D39bqZktAKFp8K6XtvVVhi5sYzDFk/GftPPXJ/NV/cdPmqnq7psQ7EgV5En37C\nwh9e9JZqnnh1bJ10Pq+ZLqseKAZhSMyCVbDWMttAT8qtP0r4VNmh07yddKzVoCRD\niAL3N2ljjcOcOU4sb/ri63CbINIOlALl0tjKpmTgmaDqVF25b5jyyeWFTN6xjiLm\nSc37hdUgusrL3xUD2AJ2ddbvG9gt7YGBbOAuyhaapB30tylYT7q8LzyBQ9dm7CF1\nEnuLuYz1AgMBAAECggEAAS9gloVR5/vpgN2upSGgvGNhEB32IFhd2ba2D23ZGKMS\nT63lG8e0lMSMV2rCD9hq2CoJmGFHvVeAvArjym4aRYBHWJub5TebeVC2ClvJPpyr\nlwP4zTcVPQvGPVb6ch8iB4MOKbENYRGOm51TH55J8FRja/E1IqJHJaerB9ihW1tr\nbU+IdHwqtKBEZTpucJwM/XQJfhdeE6bFL5HvVJoxpaLqR7OFQTqZKXCTTgE86Gga\nhWZ0Zp7xP+h5AHLBd/LizWa2UEd7Iy695uWgdPwx2/VQhsig0cmUdJro6fTbdgl4\n6DkSLtrwzwMQw3rE+M+3Mbogdd+LLuahFTD+/a4ajQKBgQDfxncnE8FPTy82Kuvf\nDNIlNhEn0pgt1LfiNdiWhLP7lvuilFrn56qvUHlE2LeWwxNwz5xSqiXIDejMOwMA\nKiyrIw50CMo+9lBHuxSNx1jXAVY5Cu/+AKUti0Vt76tmYB9VvzOVZpfNNk92YiWo\n/lgC0mKcTWWlAWlh4t3NndinlwKBgQC4uCo9HA770b2TLlOZIyINkQBZHW48dyR8\nasKi+wQYM4XurG6n3Zjpn1v0GWg2sa7poruvmaq6LMjUMdeHwzsT+pGMomhSvOcO\n/J+B37zGsJkAZ3AZc9FOKtyTHV2YLixnh7DTmlv6pdx9xNiURFAQjyZ40Wd7Ex2i\nZOy7aD1hUwKBgQDfiGdaF7fQu67Tk0iPRUVeeoXkm8/8aDNPuq4inWkU9xtiqoOs\niJTOD7sz9LBf33o6BImJYgHft1VHPeOfdIGuapRzgJxXDMHhBZZgkjPCgslYrf5S\nYt6dgjPWv8UdvQNQKnEi2prlGU2DWkN4bqoIF5T9waq5i5FzgKZEUVss/QKBgApt\nAp1OXx4heXS8MaW8EOj5HS7qdVVeWCXZlMDEMDf5eH6/JsO8wyu0fekqIfKsVrYD\nJFrF7pfxfShU49ha0ZPQGbT5WbAJz3TOF2aqLSp9vzUBoZceLVsfGjIHf0fem00A\noJ9g3/4mrGpA2QSNUoOMwNwi3ZdZvdtznNT7DjPXAoGBANn64zQ1acH46BwpW9B7\nAi5qNjpwPAiP8uZ4+l6WsioEc5TpGHvimaFp9JjQuBUAgRM/Q+rsPG06nt4FaHOh\nPUSOPgvx7+Fw88lxNhGEWjS/Bi5GYzzkQ+x2FnmkiAQpfeY1VH4LvLPyp1o7LmD1\nLJy0M51+GlsJuMBv4jdcuVuW\n-----END PRIVATE KEY-----\n",
+  "client_email": "project-foto-upload@projectfotoupload.iam.gserviceaccount.com",
+  "client_id": "115678203369483614366",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/project-foto-upload%40projectfotoupload.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
