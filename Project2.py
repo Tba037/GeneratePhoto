@@ -15,6 +15,8 @@ from datetime import datetime
 from google.oauth2 import service_account
 import time
 import gspread
+import os
+import json
 
 st.title("Hai Everyone, Ini Versi ke-2")
 st.write("Di versi ini bisa dibuat dengan cara manual 1 per 1, upload foto yang mau di update, terus lalu kodenya untuk dimasukkin ke keterangan.")
@@ -27,8 +29,7 @@ def get_data_from_google():
         # Scopes yang diperlukan untuk Google Drive API
         SCOPES = ['https://www.googleapis.com/auth/drive']
         # Autentikasi menggunakan service account
-        credentials = service_account.Credentials.from_service_account_file(
-                SERVICE_ACCOUNT_FILE, scopes=SCOPES)
+        credentials = service_account.Credentials.from_service_account_file(SERVICE_ACCOUNT_FILE, scopes=SCOPES)
         # Membangun layanan Google Drive API
         client = gspread.authorize(credentials)
         sheet = client.open_by_key("1-mAmI6-XiWEM5vBlT6TLbeCmqus0ZvvSD_UHvN7zLnM")
