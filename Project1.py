@@ -26,13 +26,13 @@ st.set_page_config("Project 1 - Create Photos")
 def get_data_from_google():
     with st.spinner("Getting data from Google Sheets..."):
         # Path ke file getlink.json Anda
-        service_account_info = json.loads(os.environ["GCP_SERVICE_ACCOUNT"])
+        SERVICE_ACCOUNT_FILE = 'api.json'
 
         # Scopes yang diperlukan untuk Google Drive API
         SCOPES = ['https://www.googleapis.com/auth/drive']
 
         # Autentikasi menggunakan service account
-        credentials = service_account.Credentials.from_service_account_file(service_account_info, scopes=SCOPES)
+        credentials = service_account.Credentials.from_service_account_file(SERVICE_ACCOUNT_FILE, scopes=SCOPES)
 
         # Membangun layanan Google Drive API
         service = build('drive', 'v3', credentials=credentials)
@@ -294,3 +294,4 @@ if start2:
             mime="application/zip"
 
         )
+
